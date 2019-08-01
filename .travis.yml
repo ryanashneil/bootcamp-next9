@@ -3,6 +3,9 @@ language: node_js
 node_js:
   - 10.13.0
 
+script:
+ - npm run unit:test
+
 deploy:
   provider: heroku
   app: sample-deploy-1
